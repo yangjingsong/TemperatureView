@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="PasswordEditText">
+        <attr name="line_height" format="dimension"></attr>
+        <attr name="default_line_color" format="color"></attr>
+        <attr name="filled_line_color" format="color"></attr>
+        <attr name="password_drawable" format="reference"></attr>
+    </declare-styleable>
+
+</resources>
